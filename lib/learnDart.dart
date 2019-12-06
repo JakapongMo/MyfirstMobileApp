@@ -3,7 +3,7 @@ class Person {
   int age;
   
   //Constructor
-  Person({String this.name, int this.age = 30});
+  Person({this.name, this.age = 30});
 }
 
 double addNumbers(double num1, double num2) {
