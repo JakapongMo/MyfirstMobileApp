@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import './question.dart';
+
 // void main() {
 //   runApp(MyApp());
 // }
@@ -40,9 +42,9 @@ class _MyAppState extends State<MyApp> {  //Name+State
         ),
         body: Column(
           children: [
-            Text(
+            Question(
               questions[_questionIndex],
-              ),
+            ),
             RaisedButton(
               child: Text('Answer 1'),
               onPressed: _answerQuestion, // point to the function not 
